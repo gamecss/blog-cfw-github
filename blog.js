@@ -50,7 +50,7 @@ function Fetch(url = '', data = {}, type = 'GET', text = false) {
       })
   })
 }
-const worker_url = 'https://blog.nds9.workers.dev'
+const worker_url = 'https://blog.gamecss.ml'
 let Template = {}
 /** Menu Template
  * @param {Array} menuData 分类列表
