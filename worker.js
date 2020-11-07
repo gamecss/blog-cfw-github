@@ -168,7 +168,7 @@ async function getStatic(request, static=false) {
   const jsHeaders = {'content-type':'application/javascript;charset=UTF-8'}
   const jsonHeaders = {'content-type':'application/json;charset=UTF-8'}
   const cssHeaders = {'content-type':'text/css;charset=UTF-8'}
-  const github = 'sunyuting83',
+  const github = 'gamecss',
         repository = 'blog-cfw-github'
   let url = new URL(request.url)
   url.hostname = "raw.githubusercontent.com"
