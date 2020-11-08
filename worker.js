@@ -172,7 +172,7 @@ async function getStatic(request, static=false) {
         repository = 'blog-cfw-github'
   let url = new URL(request.url)
   url.hostname = "raw.githubusercontent.com"
-  const newpath = `/${github}/${repository}/master${url.pathname}`
+  const newpath = `/${github}/${repository}/main${url.pathname}`
   const tp = url.pathname.substring(url.pathname.lastIndexOf('.') +1, url.pathname.length)
   url.pathname = newpath
   switch (tp) {
